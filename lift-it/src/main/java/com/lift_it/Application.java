@@ -7,6 +7,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.stereotype.*;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 @EnableAutoConfiguration(exclude = { 
@@ -19,11 +20,6 @@ public class Application extends SpringBootServletInitializer {
         return "Hello World!";
     }*/
 
-	@RequestMapping("/")
-    public String greeting(Model model) {
-        return "lifIt/index";
-    }
-	
     public static void main(String[] args){
         SpringApplication.run(Application.class, args);
     }
