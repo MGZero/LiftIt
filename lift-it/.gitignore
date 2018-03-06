@@ -2,3 +2,6 @@
 /.settings/
 .project
 .classpath
+/src/main/webapp/*
+/src/main/node_modules/*
+/src/main/front_end/node_modules/*
