@@ -1,10 +1,10 @@
 import Vue from 'vue/dist/vue.js'
-import BootstrapVue from 'bootstrap-vue'
+import test from './liftit-header.vue'
 
-Vue.use(BootstrapVue);
+Vue.component('liftit-header',test);
 
 new Vue({
-	el : '#test',
+	el : '#app',
 	data :{
 		message : 'this is lift it'
 	}
